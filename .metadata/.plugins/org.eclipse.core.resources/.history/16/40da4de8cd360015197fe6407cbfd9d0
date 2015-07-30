@@ -1,0 +1,14 @@
+package multiple.exception;
+
+import multiple.exceptio.Test;
+
+public class AppMain
+{
+
+	public static void main(String[] args)
+	{
+			Test test=new Test();
+			test.run();
+	}
+
+}

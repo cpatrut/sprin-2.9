@@ -1,0 +1,11 @@
+package multiple.exception;
+
+public class AppMain
+{
+
+	public static void main(String[] args)
+	{
+			Test test=new Test();
+	}
+
+}

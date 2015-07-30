@@ -1,0 +1,10 @@
+package multiple.exceptio;
+
+import java.io.IOException;
+
+public class Test
+{
+	public void run(){
+		throw new IOException();
+	}
+}

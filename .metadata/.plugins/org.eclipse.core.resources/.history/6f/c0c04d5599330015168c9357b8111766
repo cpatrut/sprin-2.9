@@ -1,0 +1,7 @@
+package ro.catalin.model;
+
+public class Circle
+{
+	private int id;
+	private String name;
+}

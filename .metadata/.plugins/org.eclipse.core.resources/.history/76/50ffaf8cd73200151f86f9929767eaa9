@@ -1,0 +1,13 @@
+package ro.catalin.test;
+
+import org.junit.Test;
+
+import ro.catalin.HomeController;
+
+public class testHomePage {
+	
+	@Test
+	public void testHomePage(){
+		HomeController homeController=new HomeController();
+	}
+}

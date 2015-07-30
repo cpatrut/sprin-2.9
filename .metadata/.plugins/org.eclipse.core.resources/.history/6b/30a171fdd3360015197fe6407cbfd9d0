@@ -1,0 +1,11 @@
+package reading.filw.with.file.reader;
+
+public class AppMain
+{
+
+	public static void main(String[] args)
+	{
+		File file=new File("test.txt");
+	}
+
+}

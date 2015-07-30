@@ -1,0 +1,14 @@
+package reading.filw.with.file.reader;
+
+import java.io.File;
+
+public class AppMain
+{
+
+	public static void main(String[] args)
+	{
+		File file=new File("test.txt");
+		FileReader fr=new FileReader(file);
+	}
+
+}

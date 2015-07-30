@@ -1,0 +1,7 @@
+package runtime.vs.checked.exceptions;
+
+public class MainApp
+{
+	int value=7;
+	value=value/0;
+}

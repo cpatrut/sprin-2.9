@@ -1,0 +1,12 @@
+package ro.catalin;
+
+import ro.catalin.dao.JDBCDaoImpl;
+import ro.catalin.model.Circle;
+
+public class JDBCDemoMainApp
+{
+	public static void main(String[] args){
+		Circle circle=new JDBCDaoImpl().getCircle(1);
+		System.out.println(circle.getName());
+	}
+}

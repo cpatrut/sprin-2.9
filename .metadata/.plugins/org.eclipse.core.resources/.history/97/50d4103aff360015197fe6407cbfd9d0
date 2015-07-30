@@ -1,0 +1,19 @@
+package ro.catalin;
+class Temp implements AutoCloseable{
+
+	@Override
+	public void close() throws Exception
+	{
+		
+	}
+	
+}
+public class AppMain
+{
+
+	public static void main(String[] args)
+	{
+\	
+	}
+
+}

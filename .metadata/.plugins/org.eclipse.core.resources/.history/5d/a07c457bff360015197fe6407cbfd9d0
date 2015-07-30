@@ -1,0 +1,28 @@
+package ro.catalin;
+class Temp implements AutoCloseable{
+
+	@Override
+	public void close() throws Exception
+	{
+			System.out.println("closing");
+	}
+	
+}
+public class AppMain
+{
+
+	public static void main(String[] args)
+	{
+		Temp temp=new Temp();
+		try
+		{
+			temp.close();
+		}
+		catch (Exception e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

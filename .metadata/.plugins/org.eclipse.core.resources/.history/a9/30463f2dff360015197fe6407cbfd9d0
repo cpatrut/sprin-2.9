@@ -1,0 +1,13 @@
+package ro.catalin;
+class Temp implements AutoClosable{
+	
+}
+public class AppMain
+{
+
+	public static void main(String[] args)
+	{
+\	
+	}
+
+}

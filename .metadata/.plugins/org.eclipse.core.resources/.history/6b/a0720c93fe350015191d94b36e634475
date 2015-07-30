@@ -1,0 +1,11 @@
+package ro.catalin.reading.files.using.scanner;
+
+public class AppMain
+{
+
+	public static void main(String[] args)
+	{
+
+	}
+
+}

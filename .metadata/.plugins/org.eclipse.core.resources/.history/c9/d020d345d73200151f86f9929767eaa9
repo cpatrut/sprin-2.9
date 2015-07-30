@@ -1,0 +1,8 @@
+package ro.catalin;
+
+public class testHomePage {
+	@Test
+	public void testHomePage(){
+		
+	}
+}

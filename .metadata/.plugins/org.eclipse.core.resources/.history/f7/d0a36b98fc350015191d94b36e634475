@@ -1,0 +1,17 @@
+package ro.catalin.anonimus.classes;
+
+class Machine{
+	public void start(){
+		System.out.println("Starting machine...");
+	}
+}
+
+public class AppMain
+{
+
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

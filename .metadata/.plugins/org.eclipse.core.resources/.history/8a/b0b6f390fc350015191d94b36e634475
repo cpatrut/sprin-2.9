@@ -1,0 +1,15 @@
+package ro.catalin.anonimus.classes;
+
+class Machine{
+	public void start();
+}
+
+public class AppMain
+{
+
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

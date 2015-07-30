@@ -1,0 +1,8 @@
+package multiple.exceptio;
+
+public class Test
+{
+	public void run(){
+		
+	}
+}

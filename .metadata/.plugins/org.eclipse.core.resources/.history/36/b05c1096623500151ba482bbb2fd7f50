@@ -1,0 +1,8 @@
+package caveEncapsulation;
+
+public class UsingGenerics
+{
+	public static void main(String[] args){
+		
+	}
+}

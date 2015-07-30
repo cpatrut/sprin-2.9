@@ -1,0 +1,32 @@
+package wildcardsandGenercs;
+
+import java.util.ArrayList;
+
+class Machine{
+	
+}
+class Camera extends Machine{
+	
+	
+	@Override
+	public String toString(){
+		return "this is sparta";
+	}
+}
+public class AppMain
+{
+	public static void main(String[]args){
+	ArrayList<Machine> list=new ArrayList<String>();
+	list.add("one");
+	list.add("two");
+	list.add("three");
+	list.add("for");
+	showList(list);
+	}
+	
+	public static void showList(ArrayList<String> list){
+		for(String value:list){
+			System.out.println(value);
+		}
+	}
+}

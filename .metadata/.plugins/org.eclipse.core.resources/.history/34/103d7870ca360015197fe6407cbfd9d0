@@ -1,0 +1,17 @@
+package ro.catalin.handling.exception;
+
+public class AppMain2
+{
+
+	public static void main(String[] args)
+	{
+
+	}
+
+	public static void openFile()
+	{
+		File file = new File("test.txt");
+
+		FileReader fr = new FileReader(file);
+	}
+}
