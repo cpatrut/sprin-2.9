@@ -1,0 +1,11 @@
+package ro.catalin.array.list;
+
+import java.util.ArrayList;
+
+public class MainApp
+{
+	public static void main(String[] args){
+		ArrayList<Integer> numbers=new ArrayList<Integer>();
+		System.out.println(numbers.size());
+	}
+}

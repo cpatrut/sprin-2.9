@@ -1,0 +1,29 @@
+package inner.classes;
+
+public class Robot
+{
+	private int id;
+	
+	class Brain{
+		public void think(){
+			System.out.println("Robot "+id +" is thinking.");
+		}
+	}
+
+	public Robot()
+	{
+
+	}
+
+	public Robot(int id)
+	{
+		this.id = id;
+	}
+
+	public void start()
+	{
+		System.out.println("Starting roboto: " + id);
+		Brain brain=new Brain();
+		brain.think();
+	}
+}

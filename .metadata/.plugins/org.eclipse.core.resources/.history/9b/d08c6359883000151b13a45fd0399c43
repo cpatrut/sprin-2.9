@@ -1,7 +1,0 @@
-package ro.catalin;
-
-
-@Controller
-public class Welcome {
-
-}

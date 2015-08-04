@@ -1,4 +1,3 @@
-first
-second
-third
-forth
+this is line 
+this is line two
+last line

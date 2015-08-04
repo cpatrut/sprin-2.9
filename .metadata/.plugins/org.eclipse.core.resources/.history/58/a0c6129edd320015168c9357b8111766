@@ -1,9 +1,0 @@
-package ro.catalin;
-
-
-@Controller
-@RequestMapping
-public class SpittleController
-{
-
-}

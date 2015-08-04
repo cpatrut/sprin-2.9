@@ -1,0 +1,6 @@
+package inner.classes;
+
+public class Robot
+{
+	pirivate in id;
+}

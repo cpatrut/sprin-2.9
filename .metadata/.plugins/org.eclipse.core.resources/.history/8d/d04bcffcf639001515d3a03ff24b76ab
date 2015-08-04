@@ -1,0 +1,25 @@
+package ro.catalin.serialization;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+
+public class ReadObjects
+{
+
+	public static void main(String[] args)
+	{
+		System.out.println("Reading objects");
+		try (FileInputStream fi = new FileInputStream("people.bin"))
+		{
+
+		}
+
+		catch (FileNotFoundException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

@@ -1,0 +1,10 @@
+package enumtypes.basinc.and.advanced.ussage;
+
+public enum Animal
+{
+		CAT("Fergus"),DOG,MOUSE;
+	
+	Animal(String name){
+		
+	}
+}

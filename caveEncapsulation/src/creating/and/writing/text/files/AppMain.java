@@ -1,0 +1,23 @@
+package creating.and.writing.text.files;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class AppMain
+{
+	public static void main(String[] args){
+		File file=new File("test.txt");
+		try(BufferedWriter bw=new BufferedWriter(new FileWriter(file))){
+			bw.write("this is line \n");
+			bw.write("this is line two");
+			bw.newLine();
+			bw.write("last line");
+		}
+		catch (IOException e)
+		{
+			System.out.println("can not be wrote:"+file.toString());
+		}
+	}
+}

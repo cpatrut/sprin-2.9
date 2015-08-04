@@ -1,0 +1,14 @@
+package ro.catalin.serialization;
+
+import java.io.FileInputStream;
+
+public class ReadObjects
+{
+
+	public static void main(String[] args)
+	{
+		System.out.println("Reading objects");
+		FileInputStream fi=new FileInputStream("people.bin");
+	}
+
+}

@@ -1,0 +1,9 @@
+package inner.classes;
+
+public class Robot
+{
+	private int id;
+	public Robot(int id){
+		this.id=id;
+	}
+}

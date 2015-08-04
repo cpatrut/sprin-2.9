@@ -1,0 +1,6 @@
+package enumtypes.basinc.and.advanced.ussage;
+
+public enum Animal
+{
+
+}

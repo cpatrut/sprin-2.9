@@ -1,8 +1,0 @@
-package ro.catalin;
-
-public class JDBCDemoMainApp
-{
-	public static void main(String[] args){
-		
-	}
-}

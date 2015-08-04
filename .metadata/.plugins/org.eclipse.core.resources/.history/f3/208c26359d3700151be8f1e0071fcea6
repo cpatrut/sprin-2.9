@@ -1,0 +1,21 @@
+package enumtypes.basinc.and.advanced.ussage;
+
+public class MainApp
+{
+
+	
+	public static void main(String[] args){
+		Animal animal;
+		
+		switch(animal){
+			case DOG:
+				System.out.println("DOG");
+				break;
+			case CAT:
+				System.out.println("CAT");
+				break;
+			default:
+				System.out.println("sadad");
+				}
+	}
+}
