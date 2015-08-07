@@ -1,0 +1,9 @@
+package ro.catalin.implementin.iterable;
+
+import java.util.LinkedList;
+
+public class UrlLibrary
+{
+	private LinkedList<String> urls=new LinkedList<String>();
+	
+}

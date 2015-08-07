@@ -1,0 +1,44 @@
+package ro.catalin.natural.ordering;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+class Person{
+	private String name;
+	public Person(String name){
+		this.name=name;
+	}
+}
+public class MainApp
+{
+	public static void main(String[] args)
+	{
+		List<String> list = new ArrayList<String>();
+
+		SortedSet<String> set = new TreeSet<String>();
+		addElements(list);
+		addElements(set);
+		showlements(list);
+		System.out.println();
+		showlements(set);
+	}
+
+	private static void addElements(Collection<String> col)
+	{
+		col.add("Joe");
+		col.add("Sue");
+		col.add("Juliet");
+		col.add("Clark");
+		col.add("Mike");
+
+		
+	}
+	private static void showlements(Collection<String> col){
+		for(String element:col){
+			System.out.println(element);
+		}
+}
+}

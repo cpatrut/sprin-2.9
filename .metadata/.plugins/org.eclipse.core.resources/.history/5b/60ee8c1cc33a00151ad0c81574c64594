@@ -1,0 +1,13 @@
+package ro.catalin.hashmap.retrieving.object.via.key;
+
+import java.util.HashMap;
+
+
+public class MainApp
+{
+	public static void main(String[] args)
+	{
+		HashMap<Integer, String> map = new HashMap<Integer, String>();
+		map.put(5, "Five");
+	}
+}

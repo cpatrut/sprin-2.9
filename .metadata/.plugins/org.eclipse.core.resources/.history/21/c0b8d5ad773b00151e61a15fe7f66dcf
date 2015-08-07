@@ -1,0 +1,15 @@
+package ro.catalin.natural.ordering;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class MainApp
+{
+	public static void main(String[] args){
+		List<String> list=new ArrayList<String>();
+		SortedSet<String> set=new TreeSet<String>();
+		
+	}
+}

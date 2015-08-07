@@ -1,0 +1,27 @@
+package ro.catalin.queues;
+
+import java.util.Queue;
+import java.util.concurrent.ArrayBlockingQueue;
+
+public class MainApp
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+			Queue<Integer> q1=new ArrayBlockingQueue<Integer>(3);
+			
+			q1.add(10);
+			q1.add(20);
+			q1.add(30);
+			try{
+				q1.add(40);
+			}catch(IllegalStateException e){
+			System.out.println("dsaad");
+			}
+			for(Integer val:q1){
+				System.out.println("Queue value:"+val);
+			}
+	}
+
+}

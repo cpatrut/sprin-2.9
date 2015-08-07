@@ -1,0 +1,14 @@
+package ro.catalin.using.iteretors;
+
+import java.util.LinkedList;
+
+public class MainApp
+{
+
+	public static void main(String[] args)
+	{
+		LinkedList<String> animal=new LinkedList<String>();
+		
+	}
+
+}

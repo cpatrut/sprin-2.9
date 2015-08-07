@@ -1,0 +1,12 @@
+package ro.catalin.using.custom.object.in.set.and.as.key.in.maps;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MainApp
+{
+	public static void main(String[] args){
+		Map<String,Integer> map=new HashMap<String,Integer>();
+		
+	}
+}

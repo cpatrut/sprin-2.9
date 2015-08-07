@@ -1,0 +1,10 @@
+package ro.catalin.sorted.maps;
+
+import java.util.HashMap;
+
+public class MainApp
+{
+	public static void main(String[] args){
+		HashMap<Integer, String> hashMap=new HashMap<Integer,String>();
+	}
+}

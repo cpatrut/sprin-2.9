@@ -1,0 +1,14 @@
+package ro.catalin.queues;
+
+import java.util.concurrent.ArrayBlockingQueue;
+
+public class MainApp
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+			Queu<Integer>=new ArrayBlockingQueue<Integer>();
+	}
+
+}

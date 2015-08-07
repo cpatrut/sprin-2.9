@@ -1,0 +1,8 @@
+package ro.catalin.using.custom.object.in.set.and.as.key.in.maps;
+
+public class MainApp
+{
+	public static void main(String[] args){
+		
+	}
+}
